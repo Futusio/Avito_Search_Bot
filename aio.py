@@ -13,10 +13,10 @@ from models import *
 logging.config.dictConfig(logger_config)
 logger = logging.getLogger('bot')
 
-API_TOKEN = '1331866589:AAErOkgPaB0jwyeP2K-Ml-ChJijvrEjPEto'
+API_TOKEN = None # API Token
 
 # webhook settings
-WEBHOOK_HOST = 'https://dabb83c92bb2.ngrok.io'
+WEBHOOK_HOST = None # your host
 WEBHOOK_PATH = '/'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
